@@ -1,4 +1,4 @@
-# Using the BTCPay plugin for WooCommerce
+# Using the GRSPay plugin for WooCommerce
 
 ## Prerequisites
 
@@ -69,7 +69,7 @@ Save your changes and you're good to go!
 
 ## Usage
 
-Once enabled, your customers will be given the option to pay with Bitcoins. Once
+Once enabled, your customers will be given the option to pay with Groestlcoins. Once
 they checkout they are redirected to a full screen BitPay invoice to pay for
 the order.
 

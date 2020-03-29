@@ -1,6 +1,6 @@
 # Test framework
 
-You can run the whole infrastructure (BTCPay + Woocommerce) via `docker-compose up`.
+You can run the whole infrastructure (GRSPay + Woocommerce) via `docker-compose up`.
 This will expose btcpay on `http://localhost:8081/` and woocommerce on `http://localhost:8080/`.
 
 You can use Selenium IDE plugin for chrome and run `selenium-woocommerce-btcpay-test.side`.

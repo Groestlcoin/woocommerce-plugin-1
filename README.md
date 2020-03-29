@@ -4,14 +4,14 @@ To get up and running with our plugin quickly, see the GUIDE here: https://docs.
 
 ## Brief Description
 
-Add the ability to accept bitcoin in WooCommerce via BTCPayServer.
+Add the ability to accept groestlcoin in WooCommerce via GRSPayServer.
 This plugin is also available through the [wordpress store](https://wordpress.org/plugins/btcpay-for-woocommerce/).
 
 ## Detail Description
 
-Bitcoin is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Bitcoin network allows for a highly resilient value transfer infrastructure, and this allows merchants to gain greater profits.
+Groestlcoin is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Groestlcoin network allows for a highly resilient value transfer infrastructure, and this allows merchants to gain greater profits.
 
-This is because there are little to no fees for transferring Bitcoins from one person to another. Unlike other payment methods, Bitcoin payments cannot be reversed, so once you are paid you can ship! No waiting days for a payment to clear.
+This is because there are little to no fees for transferring Groestlcoins from one person to another. Unlike other payment methods, Groestlcoin payments cannot be reversed, so once you are paid you can ship! No waiting days for a payment to clear.
 
 ## Development
 
@@ -23,8 +23,8 @@ This is because there are little to no fees for transferring Bitcoins from one p
 
 Clone the repo:
 ```bash
-$ git clone https://github.com/btcpayserver/woocommerce-plugin
-$ cd woocommerce-plugin
+$ git clone https://github.com/groestlcoin/woocommerce-plugin-1
+$ cd woocommerce-plugin-1
 ```
 
 Install the dependencies:
@@ -97,10 +97,10 @@ echo "Output available in `pwd`/dist/btcpay-for-woocommerce.zip"
 
 This can come in two conditions:
 
-* Your BTCPayServer is running on a test certificate
+* Your GRSPayServer is running on a test certificate
 * You have not installed root certificates on the wordpress host
 
-In the first case, please, make sure a valid SSL certificates is installed on your BTCPayServer. You can check this is the case by browsing to the BTCPayServer page, and check there is no browser warnings.
+In the first case, please, make sure a valid SSL certificates is installed on your GRSPayServer. You can check this is the case by browsing to the GRSPayServer page, and check there is no browser warnings.
 
 In the second case run,
 

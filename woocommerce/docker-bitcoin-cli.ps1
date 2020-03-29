@@ -1,1 +1,1 @@
-docker exec -ti woocommerce_bitcoind_1 bitcoin-cli -regtest -conf="/data/bitcoin.conf" -datadir="/data" $args
+docker exec -ti woocommerce_groestlcoind_1 groestlcoin-cli -regtest -conf="/data/groestlcoin.conf" -datadir="/data" $args

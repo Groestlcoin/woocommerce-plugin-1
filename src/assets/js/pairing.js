@@ -26,13 +26,13 @@
       }
       return null;
     }
-    
+
 
     var updatePairingLink = function (e) {
             var txtPairingUrl = $('.btcpay-url');
             var pairingLinkElement = $('.btcpay-pairing__link');
             // var requestpairingButton = $('.btcpay-pairing__request_pairing');
-            
+
             var pairingLinkMessage = $(".btcpay-pairing__link_message")
             if(txtPairingUrl.length == 0 ){
               return;
@@ -53,13 +53,13 @@
             {
               // requestpairingButton.hide();
               pairingLinkElement.hide();
-              pairingLinkMessage.show().text('Please enter BTCPay Url first');
+              pairingLinkMessage.show().text('Please enter GRSPay Url first');
             }
     };
 
-     
+
     // var requestPairing = function(){
-      
+
     //   var pairingLinkElement = $('.btcpay-pairing__link');
     //   if(pairingLinkElement.is(":hidden")){
     //     return;
@@ -80,14 +80,14 @@
     //             }
     //           }
     //         }catch{
-              
+
     //         }
     //       }
     //   });
     // }
 
     // $('.btcpay-pairing__request_pairing').on('click', requestPairing);
-   
+
 
     updatePairingLink();
     $('#btcpay_api_token_form').on('input', '.btcpay-url', updatePairingLink);

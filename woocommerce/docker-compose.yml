@@ -4,11 +4,11 @@ services:
     build: .
     links:
       - mysql
-      - btcpayserver   
+      - btcpayserver
     ports:
       - 8080:80
     expose:
-      - "80" 
+      - "80"
     volumes:
       - "./html:/var/www/html"
     environment:
@@ -36,7 +36,7 @@ services:
     ports:
       - 8081:80
     environment:
-      # BTCPay settings
+      # GRSPay settings
       BTCPAY_POSTGRES: User ID=postgres;Host=postgres;Port=5432;Database=btcpayserverregtest
       BTCPAY_NETWORK: regtest
       BTCPAY_CHAINS: "btc,ltc"
@@ -47,7 +47,7 @@ services:
       # NGINX settings
       VIRTUAL_NETWORK: nginx-proxy
       VIRTUAL_PORT: 49392
-      
+
     links:
       - nbxplorer
       - postgres
@@ -60,7 +60,7 @@ services:
     restart: unless-stopped
     ports:
       - "32838:32838"
-    expose: 
+    expose:
       - "32838"
     environment:
       NBXPLORER_NETWORK: regtest
@@ -93,7 +93,7 @@ services:
         whitelist=0.0.0.0/0
         zmqpubrawblock=tcp://0.0.0.0:28332
         zmqpubrawtx=tcp://0.0.0.0:28333
-    ports: 
+    ports:
       - "43782:43782"
       - "28332:28332"
     expose:
@@ -125,8 +125,8 @@ services:
     image:  postgres:9.6.5
     volumes:
       - "postgres_datadir:/var/lib/postgresql/data"
-  
-volumes: 
+
+volumes:
   postgres_datadir:
   litecoin_datadir:
   bitcoin_datadir:
