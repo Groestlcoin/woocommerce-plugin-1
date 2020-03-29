@@ -120,6 +120,21 @@ You'll find extensive documentation and answers to many of your questions on [do
 
 == Changelog ==
 
+## 3.0.10
+Fixed
+- Fix woocommerce admin compatibility
+- Add country code in btcpay invoice
+
+## 3.0.8
+Fixed
+- Fix bug with Woocommerce Admin plugin
+
+## 3.0.7
+Fixed
+- Update php-bitpay-lib
+- Fix misleading error messages
+- Fix bug on some format of orderId
+
 = 3.0.6 =
 Fixed
 - Fix: Invalid code 0 during pairing on some install
